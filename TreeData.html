@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./public/css/customNode.css">
+  
+  <script type="text/javascript" src="./public/js/d3.v3.min.js"></script>
+  <script type="text/javascript" src="./public/js/dummyData.js"></script>
+
+</head>
+
+<body>
+  <p><strong>Note: </strong>The size of each node is propotional to its weight/value. Also, the current color assignment is random. It could be modified to assign specific colors for a specific attributes.</p>
+  <p>To test it with your own data create a JSON in following format and replace the dummy tree in dummyData.js</p>
+  <code>
+    {
+      "name": "Name to be displayed",
+      "size": weight or value,
+      "chlidren": [Array of nodes]
+    }
+  </code>
+  <script type="text/javascript" src="./public/js/init.js"></script>
+</body>
+
+</html>
